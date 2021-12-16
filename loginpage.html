@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    </head>
+    <style>
+        body{
+            background-color: blanchedalmond;
+            background-image: url('gymimg.jfif');
+            background-size: 100%;
+        }
+        
+         .middle {
+        background-color :gainsboro;
+        color: rgb(10, 10, 10);
+    
+        margin: 150px 452px;
+        padding: 20px 20px;
+        width: 35%;
+    }
+    .loginpage button{
+        background-color: rgb(255, 69, 0);
+        color: black;
+        border-radius: 10px;
+    }
+
+
+
+    .loginpage input {
+        text-align: center;
+        font-size: 15px;
+    }
+    .homebtn{
+  margin-left: 1px;
+  display: inline-block;
+  text-align: center;
+  color: #f7eded;
+  font-weight: bolder;
+  background-color: #ff4500;
+  width: 80px;
+  border-radius: 10px;
+  
+}
+.leftbtn{
+  text-align: left;
+}
+</style>
+
+<body>
+  <diV class="leftbtn">
+  <button class="homebtn">
+
+    <a href="gymwebsite.html">HOME</a>
+  </button>
+</diV>
+    <div class="middle">
+        <h3>login here</h3>
+        <form class="loginpage">
+            <label for="Email">Email:-</label>
+            <input type="Email" id="Email" name="Email" placeholder="Enter your email-id"><br><br>
+            <label for="pwd"> password:-</label>
+            <b><input type="password" id="pwd" placeholder="Enter your password"></b><br><br>
+
+            <button type="button" onclick="alert('successfully Logged in')">Login</button>
+            <div class="checkbox">
+                <input class="check" type="checkbox">
+                <label class="form-label">
+                    Remember me
+                </label>
+            </div>
+            <div class="new">
+            <a class="forgot" href="gym registrationpage.html" >Forgot password?</a>
+        </div>
+        </form>
+    </div>
+
+    </div>
+</body>
+</html>
